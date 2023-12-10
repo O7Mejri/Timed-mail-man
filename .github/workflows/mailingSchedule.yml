@@ -1,0 +1,21 @@
+name: Scheduled Job
+
+on:
+  schedule:
+    - cron: '0 15 * * *'  # Schedule to run at 8 am UTC (adjust as needed)
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x  # Use the Python version you need
+
+      - name: Run Python Script
+        run: python send_email.py  # Update with the correct path to your script
