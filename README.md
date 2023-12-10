@@ -20,11 +20,11 @@ You can run your script as a background process to detach it from the terminal.
 
 On Unix-based Systems
 
-    nohup python your_script.py &
+    nohup python send_email.py &
 
 On Windows
 
-    start python your_script.py
+    start python send_email.py
 
 To close it: Using taskkill Command:
 Open a new Command Prompt window.
