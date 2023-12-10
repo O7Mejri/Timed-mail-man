@@ -50,13 +50,9 @@ def sendMail():
         print("EMAIL SENT!")
 
 
-# ## scheduling
-# sched_time = "15:18"
-# schedule.every().day.at(sched_time).do(sendMail)
 
-# while True:
-#     schedule.run_pending()
-#     time.sleep(1)
 
 # Running
-sendMail()
+
+if __name__ == '__main__':
+    sendMail()
