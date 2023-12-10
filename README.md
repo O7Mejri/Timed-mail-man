@@ -20,25 +20,21 @@ You can run your script as a background process to detach it from the terminal.
 
 On Unix-based Systems
 
-    ```bash
     nohup python your_script.py &
 
 On Windows
 
-    ```bash
     start python your_script.py
 
-#### To close it: Using taskkill Command
+To close it: Using taskkill Command:
 Open a new Command Prompt window.
 Use the tasklist command to find the process ID (PID) of the Python process:
 
-    ```bash
     tasklist | find "python"
     
 Look for the entry related to your script and note its PID.
 Use the taskkill command to terminate the process using its PID:
 
-    ```bash
     taskkill /F /PID <PID>
 
 ### Using Scheduling Services
