@@ -12,7 +12,7 @@ You can run your script directly in VSCode, and it will keep running until you m
 
 ### Option 2: Command Line
 Open a terminal or command prompt and navigate to the directory where your script is located.
-    ```bash
+
     python send_email.py
 
 ### Option 3: Background Process
