@@ -48,7 +48,7 @@ Description: Cron is a time-based job scheduler in Unix-like operating systems. 
 How to Use: Add an entry to the crontab file to schedule your Python script. For example, to run the script every day at 8 am:
 
     ```bash
-    0 8 * * * /path/to/python /path/to/your_script.py
+    0 8 * * * /path/to/python /path/to/send_email.py
 
 ### Other Services
 If you don't have access to a dedicated server or always-on machine and want a free solution to schedule your script, consider the following services:
