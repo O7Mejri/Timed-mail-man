@@ -1,4 +1,4 @@
-from send_email import sendMai
+from send_email import sendMail
 
 import schedule
 import time
