@@ -3,6 +3,8 @@
 ## Project Overview
 Timed Mail Man is a Python project that sends emails on schedule. It allows you to automate the sending of emails at specified intervals, making it useful for various automated communication scenarios.
 
+(This project here is running on Github Actions Scheduler, but other options can be run)
+
 ## Running Indefinitely
 
 ### Option 1: Visual Studio Code
